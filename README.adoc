@@ -1,6 +1,6 @@
-# Karaf fearture apache httpclient
+# Karaf fearture Google libraries
 
-Externsion to karaf which adds Apache Httpclient bundles to karaf features.
+Externsion to karaf which adds Google libraries bundles to karaf features.
 
 To install javax features required. Please add the folloeing repository to your distribution (versions can be different, the tested versions are presented): 
 

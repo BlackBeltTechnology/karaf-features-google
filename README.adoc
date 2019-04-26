@@ -1,0 +1,19 @@
+# Karaf fearture apache httpclient
+
+Externsion to karaf which adds Apache Httpclient bundles to karaf features.
+
+To install javax features required. Please add the folloeing repository to your distribution (versions can be different, the tested versions are presented): 
+
+- mvn:org.apache.cxf.karaf/apache-cxf/3.3.1/xml/features 
+- mvn:hu.blackbelt.karaf.features/javax/1.0.0/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-javax)
+- mvn:hu.blackbelt.karaf.features/apache-httpclient/4.5.3_1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-httpclient)
+
+## Features:
+- jimfs 1.1
+- guava 20.0
+- guice 3.0
+- gson 2.1
+- google-api-client 1.23.0
+- google-api-services-oauth2 1.23.0
+- google-api-services-calendar 1.23.0
+- google-gdata 1.47.1.1

@@ -1,12 +1,13 @@
-# Karaf fearture apache httpclient
+# Karaf fearture Google libraries
 
-Externsion to karaf which adds Apache Httpclient bundles to karaf features.
+Externsion to karaf which adds Google libraries bundles to karaf features.
 
-To install javax features required. Please add the folloeing repository to your distribution (versions can be different, the tested versions are presented): 
+To install some features features required. Please add the folloeing repository to your distribution (versions can be different, the tested versions are presented): 
 
 - mvn:org.apache.cxf.karaf/apache-cxf/3.3.1/xml/features 
-- mvn:hu.blackbelt.karaf.features/javax/1.0.0/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-javax)
-- mvn:hu.blackbelt.karaf.features/apache-httpclient/4.5.3_1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-httpclient)
+- mvn:hu.blackbelt.karaf.features/javax/1.0.1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-javax)
+- mvn:hu.blackbelt.karaf.features/apache-httpclient/4.5.3_2/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-httpclient)
+- mvn:hu.blackbelt.karaf.features/apache-commons/1.0.2/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-commons)
 
 ## Features:
 - jimfs 1.1

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features name="karaf-feature-google-${project.version}"
+<features name="google-${project.version}"
     xmlns="http://karaf.apache.org/xmlns/features/v1.5.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.5.0 http://karaf.apache.org/xmlns/features/v1.5.0">
@@ -26,7 +26,7 @@
     
     <feature name="google-api-client" version="1.23.0" description="Google client API" install="false">
         <feature dependency="true">cxf-jackson</feature>
-        <feature dependency="true">apache-httpclient</feature>
+        <feature dependency="true">apache-httpclient4</feature>
         <feature>guava</feature>
         <feature>gson</feature>
         <bundle>mvn:hu.blackbelt.bundles.google-api-client/com.google.api-client/1.23.0_1</bundle>
@@ -46,7 +46,7 @@
         <feature dependency="true">apache-commons</feature>
         <feature>guava</feature>
         <feature>google-api-client</feature>
-        <feature>apache-httpclient</feature>
+        <feature>apache-httpclient4</feature>
         <feature>google-api-services-oauth2</feature>
         <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.gdata/1.47.1_1</bundle>
     </feature>

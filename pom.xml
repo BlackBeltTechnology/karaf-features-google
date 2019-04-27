@@ -11,9 +11,9 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <javax-karaf-features-version>1.0.0</javax-karaf-features-version>
+        <javax-karaf-features-version>1.0.1-SNAPSHOT</javax-karaf-features-version>
         <cxf-version>3.3.1</cxf-version>
-        <apache-httpclient-karaf-features-version>4.5.3_1</apache-httpclient-karaf-features-version>
+        <apache-httpclient-karaf-features-version>4.5.3_2-SNAPSHOT</apache-httpclient-karaf-features-version>
     </properties>
 
     <description>Karaf Google features</description>

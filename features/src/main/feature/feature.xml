@@ -43,7 +43,6 @@
     </feature>
     
     <feature name="google-gdata" version="1.47.1.1" description="Google GData" install="false">
-        <feature dependency="true">apache-commons</feature>
         <feature>guava</feature>
         <feature>google-api-client</feature>
         <feature>apache-httpclient4</feature>

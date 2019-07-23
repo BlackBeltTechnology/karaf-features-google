@@ -9,11 +9,16 @@
         <bundle>mvn:com.ibm.icu/icu4j/49.1</bundle>
        <feature>guava</feature> <bundle><![CDATA[wrap:mvn:com.google.jimfs/jimfs/1.1$Bundle-Name=JimFS&Bundle-SymbolicName=com.google.jimfs&Bundle-Version=1.1&Import-Package=com.google.common.base;version="[14.0,30)",com.google.common.cache;version="[14.0,30)",com.google.common.collect;version="[14.0,30)",com.google.common.io;version="[14.0,30)",com.google.common.primitives;version="[14.0,30)",com.google.common.hash;version="[14.0,30)",com.google.common.util.concurrent;version="[14.0,30)",javax.annotation;version="[1.0,2)",*&overwrite=merge]]></bundle>
     </feature>
+    <!--
     <feature name="guava" version="20.0" description="Google Guava" install="false">
         <feature dependency="true">jsr305</feature>
         <bundle>mvn:com.google.guava/guava/20.0</bundle>
     </feature>
-    
+    -->
+    <feature name="guava" version="28.0" description="Google Guava" install="false">
+        <bundle>mvn:hu.blackbelt.bundles.guava/com.google.guava/28.0_1</bundle>
+    </feature>
+
     <feature name="guice" version="3.0" description="Google Guice" install="false">
         <feature dependency="true">javax-cdi-api</feature>
         <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/1.0_6</bundle>

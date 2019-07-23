@@ -65,7 +65,7 @@
                                 <descriptor>mvn:org.apache.karaf.features/standard/${karaf-version}/xml/features</descriptor>
                                 <descriptor>mvn:org.apache.karaf.features/enterprise/${karaf-version}/xml/features</descriptor>
                                 <descriptor>mvn:org.apache.cxf.karaf/apache-cxf/${cxf-version}/xml/features</descriptor>
-                                <descriptor>mvn:hu.blackbelt.karaf.features/javax-features/${javax-karaf-features-version}/xml/features</descriptor>
+                                <!-- <descriptor>mvn:hu.blackbelt.karaf.features/javax-features/${javax-karaf-features-version}/xml/features</descriptor> -->
                                 <descriptor>mvn:hu.blackbelt.karaf.features/apache-httpclient-features/${apache-httpclient-karaf-features-version}/xml/features</descriptor>
                                 <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                             </descriptors>
@@ -78,6 +78,15 @@
                             <features>
                                 <feature>jimfs</feature>
                                 <feature>guava</feature>
+                                <feature>guava-20</feature>
+                                <feature>guava-21</feature>
+                                <feature>guava-22</feature>
+                                <feature>guava-23</feature>
+                                <feature>guava-24</feature>
+                                <feature>guava-25</feature>
+                                <feature>guava-26</feature>
+                                <feature>guava-27</feature>
+                                <feature>guava-28</feature>
                                 <feature>guice</feature>
                                 <feature>gson</feature>
                                 <feature>google-api-client</feature>

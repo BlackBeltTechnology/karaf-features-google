@@ -15,8 +15,8 @@
         <bundle>mvn:com.google.guava/guava/20.0</bundle>
     </feature>
     -->
-    <feature name="guava" version="28.0" description="Google Guava" install="false">
-        <bundle>mvn:hu.blackbelt.bundles.guava/com.google.guava/28.0_1</bundle>
+    <feature name="guava" version="20.0" description="Google Guava" install="false">
+        <bundle>mvn:hu.blackbelt.bundles.guava/com.google.guava/20.0_1</bundle>
     </feature>
 
     <feature name="guice" version="3.0" description="Google Guice" install="false">

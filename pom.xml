@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <karaf-version>4.2.5</karaf-version>
+        <karaf-version>4.2.6</karaf-version>
         <javax-karaf-features-version>1.0.1</javax-karaf-features-version>
         <cxf-version>3.3.1</cxf-version>
         <apache-httpclient-karaf-features-version>4.5.3_2</apache-httpclient-karaf-features-version>

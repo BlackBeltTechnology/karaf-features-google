@@ -9,18 +9,60 @@
         <bundle>mvn:com.ibm.icu/icu4j/49.1</bundle>
        <feature>guava</feature> <bundle><![CDATA[wrap:mvn:com.google.jimfs/jimfs/1.1$Bundle-Name=JimFS&Bundle-SymbolicName=com.google.jimfs&Bundle-Version=1.1&Import-Package=com.google.common.base;version="[14.0,30)",com.google.common.cache;version="[14.0,30)",com.google.common.collect;version="[14.0,30)",com.google.common.io;version="[14.0,30)",com.google.common.primitives;version="[14.0,30)",com.google.common.hash;version="[14.0,30)",com.google.common.util.concurrent;version="[14.0,30)",javax.annotation;version="[1.0,2)",*&overwrite=merge]]></bundle>
     </feature>
-    <!--
-    <feature name="guava" version="20.0" description="Google Guava" install="false">
-        <feature dependency="true">jsr305</feature>
-        <bundle>mvn:com.google.guava/guava/20.0</bundle>
+
+    <feature name="guava" version="20.0" description="Google Guava 20" install="false">
+        <feature>guava-20</feature>
     </feature>
-    -->
-    <feature name="guava" version="28.0" description="Google Guava" install="false">
-        <bundle>mvn:hu.blackbelt.bundles.guava/com.google.guava/28.0_1</bundle>
+
+    <feature name="guava-18" version="18.0" description="Google Guava 18" install="false">
+        <bundle>mvn:com.google.guava/guava/18.0</bundle>
+    </feature>
+
+    <feature name="guava-19" version="19.0" description="Google Guava 19" install="false">
+        <bundle>mvn:com.google.guava/guava/19.0</bundle>
+    </feature>
+
+    <feature name="guava-20" version="20.0" description="Google Guava 20" install="false">
+        <bundle>mvn:hu.blackbelt.bundles.guava/com.google.guava/20.0_1</bundle>
+    </feature>
+    
+    <feature name="guava-21" version="21.0" description="Google Guava 21" install="false">
+        <bundle>mvn:com.google.guava/guava/21.0</bundle>
+    </feature>
+
+    <feature name="guava-22" version="22.0" description="Google Guava 22" install="false">
+        <bundle>mvn:com.google.guava/guava/22.0</bundle>
+    </feature>
+
+    <feature name="guava-23" version="23.6" description="Google Guava 23" install="false">
+        <bundle>mvn:com.google.guava/guava/23.6.1-jre</bundle>
+    </feature>
+
+    <feature name="guava-24" version="24.1" description="Google Guava 24" install="false">
+        <bundle>mvn:com.google.guava/guava/24.1-jre</bundle>
+    </feature>
+
+    <feature name="guava-25" version="25.1" description="Google Guava 25" install="false">
+        <bundle>mvn:com.google.guava/guava/25.1-jre</bundle>
+    </feature>
+
+    <feature name="guava-26" version="26.0" description="Google Guava 26" install="false">
+        <bundle>mvn:com.google.guava/guava/26.0-jre</bundle>
+    </feature>
+
+    <feature name="guava-27" version="27.1" description="Google Guava 27" install="false">
+        <bundle>mvn:com.google.guava/failureaccess/1.0.1</bundle>
+        <bundle>mvn:com.google.guava/guava/27.1-jre</bundle>
+    </feature>
+
+    <feature name="guava-28" version="28.0" description="Google Guava 28" install="false">
+        <bundle>mvn:com.google.guava/failureaccess/1.0.1</bundle>
+        <bundle>mvn:com.google.guava/guava/28.0-jre</bundle>
     </feature>
 
     <feature name="guice" version="3.0" description="Google Guice" install="false">
-        <feature dependency="true">javax-cdi-api</feature>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-inject/1_3</bundle>
+        <bundle>mvn:com.google.code.findbugs/jsr305/3.0.2</bundle>
         <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/1.0_6</bundle>
         <bundle>mvn:com.google.inject/guice/3.0</bundle>
     </feature>

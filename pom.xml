@@ -3,17 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <artifactId>google</artifactId>
     <name>Goofle karaf feature project</name>
     <packaging>pom</packaging>
 
     <properties>
-        <karaf-version>4.2.5</karaf-version>
-        <javax-karaf-features-version>1.0.1</javax-karaf-features-version>
+        <karaf-version>4.2.6</karaf-version>
         <cxf-version>3.3.1</cxf-version>
-        <apache-httpclient-karaf-features-version>4.5.3_2</apache-httpclient-karaf-features-version>
+        <apache-httpclient-karaf-features-version>1.0.0</apache-httpclient-karaf-features-version>
     </properties>
 
     <description>Karaf Google features</description>
@@ -47,7 +46,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
 
     <build>
         <pluginManagement>

@@ -7,7 +7,8 @@
     
     <feature name="jimfs" version="1.1" description="Google JimFS" install="false">
         <bundle>mvn:com.ibm.icu/icu4j/49.1</bundle>
-       <feature>guava</feature> <bundle><![CDATA[wrap:mvn:com.google.jimfs/jimfs/1.1$Bundle-Name=JimFS&Bundle-SymbolicName=com.google.jimfs&Bundle-Version=1.1&Import-Package=com.google.common.base;version="[14.0,30)",com.google.common.cache;version="[14.0,30)",com.google.common.collect;version="[14.0,30)",com.google.common.io;version="[14.0,30)",com.google.common.primitives;version="[14.0,30)",com.google.common.hash;version="[14.0,30)",com.google.common.util.concurrent;version="[14.0,30)",javax.annotation;version="[1.0,2)",*&overwrite=merge]]></bundle>
+       <feature>guava</feature> 
+        <bundle><![CDATA[wrap:mvn:com.google.jimfs/jimfs/1.1$Bundle-Name=JimFS&Bundle-SymbolicName=com.google.jimfs&Bundle-Version=1.1&Import-Package=com.google.common.base;version="[20.0,21)",com.google.common.cache;version="[20.0,21)",com.google.common.collect;version="[20.0,21)",com.google.common.io;version="[20.0,21)",com.google.common.primitives;version="[20.0,21)",com.google.common.hash;version="[20.0,21)",com.google.common.util.concurrent;version="[20.0,21)",javax.annotation;version="[1.0,2)",*&overwrite=merge]]></bundle>
     </feature>
 
     <feature name="guava" version="20.0" description="Google Guava 20" install="false">

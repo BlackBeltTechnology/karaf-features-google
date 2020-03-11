@@ -7,8 +7,8 @@
     
     <feature name="jimfs" version="1.1" description="Google JimFS" install="false">
         <bundle>mvn:com.ibm.icu/icu4j/49.1</bundle>
-       <feature>guava</feature> 
-        <bundle><![CDATA[wrap:mvn:com.google.jimfs/jimfs/1.1$Bundle-Name=JimFS&Bundle-SymbolicName=com.google.jimfs&Bundle-Version=1.1&Import-Package=com.google.common.base;version="[20.0,21)",com.google.common.cache;version="[20.0,21)",com.google.common.collect;version="[20.0,21)",com.google.common.io;version="[20.0,21)",com.google.common.primitives;version="[20.0,21)",com.google.common.hash;version="[20.0,21)",com.google.common.util.concurrent;version="[20.0,21)",javax.annotation;version="[1.0,2)",*&overwrite=merge]]></bundle>
+        <feature>guava-18</feature>
+        <bundle>mvn:com.google.jimfs/jimfs/1.1</bundle>
     </feature>
 
     <feature name="guava" version="20.0" description="Google Guava 20" install="false">
@@ -77,7 +77,7 @@
         <feature dependency="true">apache-httpclient4</feature>
         <feature>guava</feature>
         <feature>gson</feature>
-        <bundle>mvn:hu.blackbelt.bundles.google-api-client/com.google.api-client/1.23.0_1</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.google-api-client/com.google.api-client/1.23.0_2</bundle>
     </feature>
     
     <feature name="google-api-services-oauth2" version="1.23.0" description="Google Oauth2 Service API" install="false">

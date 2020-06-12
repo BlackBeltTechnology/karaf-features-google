@@ -86,6 +86,7 @@
                                 <feature>guava-26</feature>
                                 <feature>guava-27</feature>
                                 <feature>guava-28</feature>
+                                <feature>guava-29</feature>
                                 <feature>guice</feature>
                                 <feature>gson</feature>
                                 <feature>google-api-client</feature>

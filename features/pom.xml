@@ -5,7 +5,7 @@
     <parent>
         <groupId>hu.blackbelt.karaf.features</groupId>
         <artifactId>google</artifactId>
-        <version>1.0.6</version>
+        <version>1.0.7</version>
         <relativePath>../</relativePath>
     </parent>
     <artifactId>google-features</artifactId>
@@ -87,7 +87,10 @@
                                 <feature>guava-27</feature>
                                 <feature>guava-28</feature>
                                 <feature>guava-29</feature>
+                                <feature>guava-30</feature>
                                 <feature>guice</feature>
+                                <feature>guice-3</feature>
+                                <feature>guice-4</feature>
                                 <feature>gson</feature>
                                 <feature>google-api-client</feature>
                                 <feature>google-api-services-oauth2</feature>

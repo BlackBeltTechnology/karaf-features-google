@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.8-SNAPSHOT</version>
 
     <artifactId>google</artifactId>
     <name>Google karaf feature project</name>

@@ -74,8 +74,6 @@
         </plugins>
     </build>
 
-
-
     <profiles>
         <profile>
             <id>verify-feature</id>
@@ -142,7 +140,6 @@
                             </execution>
                         </executions>
                     </plugin>
-
                 </plugins>
             </build>
             <dependencies>

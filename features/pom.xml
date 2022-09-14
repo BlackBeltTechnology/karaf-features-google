@@ -127,9 +127,11 @@
                                         <feature>guava-28</feature>
                                         <feature>guava-29</feature>
                                         <feature>guava-30</feature>
+                                        <feature>guava-31</feature>
                                         <feature>guice</feature>
                                         <feature>guice-3</feature>
                                         <feature>guice-4</feature>
+                                        <feature>guice-5</feature>
                                         <feature>gson</feature>
                                         <feature>google-api-client</feature>
                                         <feature>google-api-services-oauth2</feature>
